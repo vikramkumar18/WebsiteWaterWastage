@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('contact_us_che.jpg'); 
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+		
+		header {
+    background-color: #2E5D95;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+		}
+		
+			nav {
+    background-color: black; 
+    text-align: center;
+    padding: 1px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white; ]
+    text-decoration: none;
+}
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .company-details {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .company-details h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .company-address {
+            font-weight: bold;
+        }
+
+        .company-contact {
+            margin-top: 10px;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        .contact-form {
+            text-align: left;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            width: 95%;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+	</header>
+	
+	<nav>
+		<ul>
+            <li><a href="home.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="causes.html">Causes</a></li>
+			<li><a href="effect.html">Effects</a></li>
+		   <li><a href="prevention.html">Prevention</a></li>
+		   <li><a href="management.html">Management</a></li>
+			<li><a href="TEAM.html">Team</a></li>
+            <li><a href="FAQ's_CHE.html">FAQ's</a></li>
+            <li><a href="CONTACT_US2_CHE.html">Contact</a></li>
+        </ul>
+    </nav>
+	
+	<div class="container">
+        <div class="company-details">
+            <h2>Company Details</h2>
+            <p class="company-address"></p>
+            <p class="company-address">Phagwara, 144111</p>
+            <p class="company-contact">Mobile: 7023543075</p>
+            <p class="company-contact">Email: water.p@gmail.com</p>
+        </div>
+
+        <div class="contact-form">
+            <h2>Contact Form</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
